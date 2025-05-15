@@ -1,0 +1,58 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+button {
+    border: none;
+}
+
+.container {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.logo  {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+padding-top: 24px;
+padding-bottom: 16px;
+flex-direction: column;
+align-items:center ;
+ img {
+    width: 600px;    
+ }
+ hr {
+ width: 1289px;
+ margin-top: 24px;
+
+ color: black;
+ }
+}
+
+nav ul {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 16px;
+margin-bottom: 14px;
+gap: 120px;
+font-size: 18px;
+font-weight: 700;
+} 
+
+li .active {
+    background: dodgerblue;
+    padding: 10px 15px;
+    color: white;
+}
